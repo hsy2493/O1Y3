@@ -10,7 +10,7 @@
 1) 로그인<br>![image](https://github.com/user-attachments/assets/c4bd0385-9838-45d9-825b-bb6b922ce844)
 
 2) 회원가입<br>
--회원선택
+-회원선택<br>
 ![image](https://github.com/user-attachments/assets/cb60f585-3c3f-4dbe-a49b-c69d64703066)<br>
 -약관동의<br>
 ![image](https://github.com/user-attachments/assets/ea0c18a3-ddad-453d-9d85-661c5ed6155b)<br>
