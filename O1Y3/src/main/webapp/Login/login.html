@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>로그인</title>
+<style type="text/css">
+  #loginform {
+    position: relative;
+    left: 20%;
+    width: 50%;
+  }
+  #login_text {
+    border: 2px solid rgb(196, 196, 196);
+    width: 75%;
+    height: 240px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  #individualId {
+    background: rgb(9, 57, 90);
+    height: 35px;
+    width: 20%;
+    color: rgb(255, 243, 243);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 38px;
+  }
+  #idBox {
+    background-color: rgb(221, 221, 221);
+    border: 2px solid rgb(175, 175, 175);
+    border-radius: 5px;
+    width: 50%;
+    height: 25px;
+  }
+  #pwdBox {
+    background-color: rgb(221, 221, 221);
+    border: 2px solid rgb(175, 175, 175);
+    border-radius: 5px;
+    width: 50%;
+    height: 25px;
+  }
+  #roginButton {
+    background: rgb(9, 57, 90);
+    height: 30px;
+    width: 100px;
+    color: rgb(255, 243, 243);
+    border-radius: 5px;
+    border: 1px solid rgb(17, 0, 0);
+  }
+  #img {
+    height: 15px;
+    width: 15px;
+  }
+  #MemberShipGo {
+    background: rgb(9, 57, 90);
+    border: 1px solid rgb(8, 8, 8);
+    height: 30px;
+    width: 88px;
+    color: rgb(255, 243, 243);
+    border-radius: 5px;
+    line-height: 26px;
+    margin-left: 257.5px;
+    text-align: center;
+    font-size: 15px;
+  }
+  #notice_board {
+    border: 2px solid rgb(196, 196, 196);
+    width: 75%;
+    height: 130px;
+    border-radius: 5px;
+    text-align: justify;
+    font-size: 15px;
+  }
+</style>
+</head>
+<body>
+<div id="loginform"><!-- 전체 묶음1  -->
+  <h1>로그인</h1>
+
+  <div id="individualId"><!-- 개인로그인 제목박스4 -->
+    <span style="font-size: 100%;"><b>개인로그인</b></span><br>
+  </div><!-- 개인로그인 제목박스4 -->
+  <div id="login_text"><!--로그인2 -->
+    <form method="post" action="result.jsp">
+      <br><br>
+      <div id="ids"><!-- 아이디4 -->
+        <span style="font-size: 80%;"><b>아이디</b>&nbsp;<input type="text" name="id" id="idBox"><!-- 아이디 입력창7--></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </div><!-- 아이디4 -->
+      <div id="pwds"><!-- 비밀번호5 --><br>
+        <span style="font-size: 80%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>비밀번호&nbsp;</b><input type="password" name="pwd" id="pwdBox"><!-- 비밀번호 입력창6 --></span>
+        &nbsp;<input type="submit" value="로그인" id="roginButton"><!-- 로그인 버튼7 --><br>
+      </div><!-- 비밀번호5 -->
+      <div id="IPB"> <!-- 아이디찾기/비밀번호재설정 묶음버튼6 -->
+        <span style="font-size: 60%;"><a href="https://www.q-net.or.kr/man002.do?id=man00201&gSite=L&gId=36" style="text-decoration: none; color: black;">
+아이디 찾기/</a></span>
+        <span style="font-size: 60%;">
+<a href="https://www.q-net.or.kr/man002.do?id=man00201&gSite=L&gId=36" style="text-decoration: none; color: black;" >비밀번호 재설정</a></span>
+        <a href="https://www.q-net.or.kr/man002.do?id=man00201&gSite=L&gId=36">
+          <img src="img/버튼.png" alt="버튼 이미지" id="img"><!-- 버튼 이미지9 --></a></div><!-- 아이디찾기/비밀번호재설정 묶음버튼6 -->
+      <div id="MemberShipGo"><!-- 회원가입 창 이동버튼8 -->
+        <a href="../MembersShip/member_1.html" style="text-decoration: none; font-size: 80%; color: white;"><span>회원가입 하기</span></a></div><!-- 회원가입 창 이동버튼8 -->
+    </form>
+  </div><!--로그인2 -->
+  <br>
+  <div id="notice_board"><!-- 안내 박스3 -->
+    <br>
+    <b>
+      <span style="font-size: 80%;"> &nbsp;&nbsp;&nbsp;&nbsp;최근 우리공단은 첨단 전자기기 등에 의한 국가자격시험 <span style="color: red"><b>부정행위 예방을 강화</b></span>하고<br>
+&nbsp;&nbsp;&nbsp;있으며, 부정한 방법으로 시험을 치른 자는 <span style="color: red"><b>응시자격 정지, 시험무효 및 합격취소,<br>
+&nbsp;&nbsp;&nbsp;경찰 수사의뢰</b></span> 등 강력조치 할 계획이오니 국가자격 공신력 확보를 위해 적극<br>
+&nbsp;&nbsp;&nbsp;협조해주시기 바랍니다.</span></b>
+  </div><!-- 안내 박스3 -->
+</div><!--전체 묶음1 -->
+</body>
+</html>
+

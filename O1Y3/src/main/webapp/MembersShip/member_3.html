@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>본인인증</title>
+<style>
+  #memberMain{/* 전체 묶음1 */
+		position: relative;
+        left: 20%;
+        width:50%;
+	    }
+ #phoneNumber{ /* 휴대폰인증 제목 4*/
+       border: 1.9px solid rgb(0, 0, 0);
+       width: 30%;
+       height: 30px;
+       margin-left: 31px; /* 이동 */
+       background: rgb(9, 57, 90);
+	   color: rgb(255, 243, 243);	
+       border-radius: 1.8px;
+       text-align: center;
+       line-height: 1.8;
+       
+             }
+ #phone{ /*휴대폰 인증 박스3*/
+        border: 1px solid rgb(0, 0, 0); 
+    	border-radius: 1.5px;
+    	background: rgb(248, 251, 253);
+    	width:600px;
+    	height:130px;
+    	position: relative;
+    	left:5%;
+        }
+ #certified{ /*휴대폰인증 버튼*/
+       background:rgb(9, 57, 90);
+       height: 50px;
+	   color: rgb(255, 243, 243);
+       border-radius: 10px;
+        }       
+ 
+</style>
+</head>
+<body>
+<h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;회원가입</h1> 
+<div id="memberMain" ><!-- 전체 묶음1  -->
+<div class="img">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<!-- 이미지2 -->
+<span><img src="img/본인인증.PNG"></span>
+</div><!-- 이미지2 -->
+&nbsp;&nbsp;&nbsp;&nbsp;
+<div id="phoneNumber"><!-- 휴대폰인증 제목4 -->
+<strong>휴대폰 인증</strong></div>
+<div id="phone"><!-- 휴대폰 인증 박스3 -->
+<form><br>
+&nbsp;&nbsp;&nbsp;<b><span style="font-size:77%"><strong>회원가입을 위해 본인인증이 필요합니다. 휴대전화 본인인증은 주민등록번호로 대체 인증수단<br>&nbsp;
+    &nbsp;&nbsp;&nbsp;으로 회원님의 휴대폰 번호를 통해 본인확인을 하는 서비스입니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" id="certified" onclick="PhoneNumber()">휴대폰 인증</button><!-- 휴대폰인증 버튼 --></strong></span></b>
+</form>
+</div><!-- 휴대폰 인증 박스3 -->
+</div><!-- 전체 묶음1 -->
+<script>
+ function PhoneNumber(){ //휴대폰인증 버튼
+		 location.href="member_4.html"
+ }
+</script>	
+</body>
+</html>

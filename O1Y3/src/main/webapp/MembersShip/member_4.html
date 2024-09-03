@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>회원정보 등록</title>
+<style>
+    #MamberBox{ /* 전체 묶음1 */
+        position: relative;
+        left: 20%;
+        width:50%;
+
+    }
+    #MamberBoxs table{ /* 회원정보 입력 박스3 */
+        border: 1px solid rgb(226, 226, 226);
+        border-collapse: collapse;
+        width:100%;
+    	height: 50px;
+        font-weight: bolder;
+    }
+    #MamberBoxs td{
+        border: 0.5px solid rgb(41, 41, 41);
+    }
+    #MamberBoxs table td:nth-child(1){
+        text-align: right;
+    } 
+    
+    #ids{ /* 아이디 입력창 */
+        width:70%;	
+    }
+
+    #names{ /* 이름 입력창 */
+        width:70%;	
+    }
+    
+    #births{ /* 생년월일 선택 */
+        width:70%;	
+        text-align: center;
+        font-weight: bolder;
+    }
+
+    #pwds{ /* 비밀번호 입력창 */
+        width:70%;	
+    }
+    
+    #pwdCols{ /* 비밀번호 확인 입력창 */
+        width:70%;	
+    }
+
+    
+    #Button{ /* 아이디 중복확인 버튼 */
+        border: 2px solid rgb(12, 0, 63);
+        background:rgb(9, 57, 90);
+        width:20%;
+	    color: rgb(255, 243, 243);
+        border-radius: 5px;
+    }
+     
+    #PwdOkButton{/* 확인 버튼 */
+        border: 2px solid rgb(12, 0, 63);
+        background:rgb(9, 57, 90);
+        width:20%;
+	    color: rgb(255, 243, 243);
+        border-radius: 5px;
+               }
+               
+    #AllButton{/* 등록완료 버튼 */
+        border: 2px solid rgb(73, 5, 5);
+        background:rgb(212, 33, 20);
+        width:15%;
+	    color: rgb(255, 255, 255);
+        font-size: 70%;
+        font-weight: bolder;
+        border-radius: 5px;
+           }             
+</style>
+</head>
+<body>
+<h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;회원가입</h1> 
+<div id="MamberBox"><!-- 전체 묶음1  -->
+<div class="img"><!--이미지2-->
+<span><img src="img/회원정보 등록.PNG"></span>
+</div><!--이미지2-->
+<div id="MamberBoxs"><!-- 회원정보 입력 박스3 -->
+  <table><!-- 박스: 2x6 -->
+<tr><!-- 회원정보 정보 입력 tr 4-->
+   <td>아이디</td><!-- 아이디 -->
+   <td>&nbsp;<input type="text" name="id" id="ids"><!--jsp --><!-- 아이디 입력창 -->&nbsp;&nbsp;&nbsp;<button id="Button" onclick="duplication()"><strong><span style="font-size:70%">아이디 중복 확인</span></strong></button><!-- js --></td><!-- 아이디 -->
+</tr><!-- 아이디 중복확인 버튼-->
+<tr>
+    <td>생년월일</td>
+    <td>&nbsp;<input type="date" name="birth" id="births"><!-- 생년월일 선택 --><span style="font-size: 10px;">(법정생년월일 6자리)</span></td><!-- 생년월일 -->
+</tr>
+<tr>
+    <td>성별</td>
+    <td>&nbsp;<input type="radio" name="gender">남자&nbsp;&nbsp;<input type="radio" name="gender">여자</td><!-- 성별 -->
+</tr>
+<tr>
+    <td>이 름</td>
+    <td>&nbsp;<input type="text" name="name" id="names"></td><!-- 이 름 --><!-- 이름 입력창 -->
+</tr>
+<tr>
+    <td>비밀번호</td>
+    <td>&nbsp;<input type="password" name="pwd" id="pwds"></td><!-- 비밀번호 --><!-- 비밀번호 입력창 -->
+</tr>
+<tr>
+    <td>비밀번호 확인</td><!-- 비밀번호 확인 -->
+    <td>&nbsp;<input type="password" name="pwdCol" id="pwdCols">&nbsp;&nbsp;&nbsp;<!-- 비밀번호 확인 입력창--><button type="button" onclick="CheckPassword()" id="PwdOkButton"><strong><span style="font-size:70%">확인</span></strong></button><!-- js -->  
+    </td><!-- 확인 버튼-->
+</tr><!-- 회원정보 정보 입력 tr 4-->
+  </table>	
+  <br>
+    <form method="post" action="member_5.html">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" id="AllButton" value="등록완료" onclick="verification()"><!-- 등록완료 버튼 -->
+</form>
+</div><!-- 회원정보 입력 박스3 -->
+</div><!-- 전체 묶음1  -->
+<script>
+ function duplication(){ //아이디 중복확인 버튼 
+	 var ids = document.querySelector("#ids").value; 
+	                    //.value 
+	                    //==> input type안에 적은 값을 가져올 수 있음.
+	 
+	 if(!ids){ //아이디를 입력하지 않은 경우
+		       alert("사용할 아이디를 입력해주세요");	
+                    
+	 }else if(ids == 'O1Y3'){	 //이미 등록된 로그인정보
+		                 //아이디 O1Y3인 경우, 중복확인.
+		                
+		    //html 태그 중 input에 value가 미포함된 경우,
+		     //if문에서 value값이, O1Y3으로 설정가능함.
+		     
+		   alert("이미 사용 중인 아이디입니다");
+	  
+	 }else{ //그외의 아이디를 입력한 경우
+		   alert("사용 가능한 아이디 입니다");		  
+   }	 
+} 
+ 
+ function CheckPassword(){ //비밀번호 중복확인
+	 var pwds = document.querySelector("#pwds").value;
+	 var pwdCols = document.querySelector("#pwdCols").value;
+	 
+	 if(pwds == pwdCols){//입력한 비밀번호와 비밀번호 확인이 서로 일치하는 경우(중복) 
+		   alert("입력한 비밀번호가 일치합니다");	
+		   return;
+	 
+	 }else{
+		   alert("비밀번호를 확인해주세요");	
+	 } 
+  }
+ function verification(){//등록완료 버튼
+	 location.href="member_5.html"
+ }
+</script>	
+</body>
+</html>

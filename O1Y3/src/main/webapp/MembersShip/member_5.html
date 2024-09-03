@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>회원가입 완료</title>
+<style>
+    #memberMain{/* 전체 묶음1 */
+		position: relative;
+        left: 20%;
+        width:50%;
+	    }
+    #contain{/*회원가입 완료안내 박스*/
+    	border: 2px solid rgb(197, 197, 197);
+    	border-radius:1.5px;
+    	background:rgb(224, 224, 224);
+    	width:95%;
+    	height:150px;
+    	position: relative;
+    	left:5%;
+    	text-align: center;	
+      }
+   #logbu{/*로그인 버튼*/
+	border: 2px solid rgb(34, 34, 34);
+	background:rgb(9, 57, 90);
+	color: rgb(255, 243, 243);
+	border-radius: 5px;
+	width: 15%;
+     }
+   #logmain{/*메인으로 버튼*/
+	border: 2px solid rgb(197, 197, 197);
+    background:rgb(243, 242, 255);
+    color: rgb(0, 0, 0);
+	border-radius: 5px;
+	width: 15%;
+   }
+
+</style>
+</head>
+<body>
+<h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;회원가입</h1>
+<div id="memberMain"><!-- 전체 묶음1 -->
+<div class="img"><!-- 이미지2 -->
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><img src="img/가입완료.PNG"></span>
+</div><!-- 이미지2 -->
+<div id="contain"><!-- 회원가입 완료안내 박스 -->
+<span><br><br><br>
+	<b><span style="color: rgb(23, 123, 255);">회원가입이 완료되었습니다.</span></b></span>	
+</div><!--회원가입 완료안내 박스 -->
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<button type="button" id="logbu" onclick="LoginButton()"><strong>로그인&nbsp;</strong></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<button type="button" id="logmain" onclick="MainButton()"><strong>메인으로</strong></button>
+</div><!-- 전체 묶음1 -->	
+<script>
+function LoginButton(){ //로그인로 이동
+    location.href="../Login/login.html" 
+}
+
+function MainButton(){ //메인창으로 이동
+    location.href="https://www.q-net.or.kr/man001.do?imYn=Y&gSite=Q" 
+}
+</script>
+
+</body>
+</html>
