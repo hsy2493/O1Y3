@@ -23,15 +23,19 @@
 2-1. 회원선택<br>
 ![image](https://github.com/user-attachments/assets/cb60f585-3c3f-4dbe-a49b-c69d64703066)<br>
 - 회원선택 화면구현 상세 코드 (https://github.com/hsy2493/O1Y3/blob/master/O1Y3/src/main/webapp/MembersShip/member_1.html) <br>
+
 2-2. 약관동의<br>
 ![image](https://github.com/user-attachments/assets/ea0c18a3-ddad-453d-9d85-661c5ed6155b)<br>
 - 약관동의 화면구현 상세 코드 (https://github.com/hsy2493/O1Y3/blob/master/O1Y3/src/main/webapp/MembersShip/member_2.html) <br>
+
 2-3. 본인인증<br>
 ![image](https://github.com/user-attachments/assets/b8c6a87b-ce2e-418e-8ae0-4bcda42f7b82)<br>
 - 본인인증 화면구현 상세 코드 (https://github.com/hsy2493/O1Y3/blob/master/O1Y3/src/main/webapp/MembersShip/member_3.html) <br>
+
 2-4. 회원정보 등록<br>
 ![image](https://github.com/user-attachments/assets/a848bee7-0f8b-4f09-a818-7ec3884fe062)<br>
 - 회원정보 등록 화면구현 상세 코드 (https://github.com/hsy2493/O1Y3/blob/master/O1Y3/src/main/webapp/MembersShip/member_4.html) <br>
+
 2-5. 회원가입 완료<br>
 ![image](https://github.com/user-attachments/assets/a3428a0e-d7c1-41a8-a364-bbf39d3b563d)<br>
 - 회원가입 완료 화면구현 상세 코드 (https://github.com/hsy2493/O1Y3/blob/master/O1Y3/src/main/webapp/MembersShip/member_5.html) <br>
