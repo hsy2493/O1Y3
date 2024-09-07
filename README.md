@@ -12,7 +12,8 @@
 - 워크 플로우 : <br>
   ![image](https://github.com/user-attachments/assets/8807efb9-32c2-4e68-95b2-4ec563f9d4c8) <br>
 - PPT 자료 (https://github.com/hsy2493/O1Y3/issues/1#issue-2509827477)
-5. 작업 툴 : HTML, CSS, Javascript, JSP<br>
+5. 작업 툴 :
+  - Front-end : HTML, CSS, Javascript, JSP<br>
 6. 작업 인원 : 3명<br>
 7. 결과물 : <br>
 ## <화면구현>
