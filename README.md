@@ -8,8 +8,10 @@
 - 일정표 : <br>
   ![image](https://github.com/user-attachments/assets/5beb8d61-49a2-4e9e-8e67-91b8496b4060) <br>
 - 요구사항 정의서 : <br>
+(1) 로그인 & (2) 회원가입
   ![image](https://github.com/user-attachments/assets/e217e269-2625-49f7-b121-50808f494678) <br>
 - 워크 플로우 : <br>
+(1) 로그인 & (2) 회원가입 
   ![image](https://github.com/user-attachments/assets/8807efb9-32c2-4e68-95b2-4ec563f9d4c8) <br>
 - PPT 자료<br>
   https://github.com/hsy2493/O1Y3/issues/1#issue-2509827477
