@@ -48,7 +48,7 @@
 
 2-5). 회원가입 완료<br>
 ![image](https://github.com/user-attachments/assets/a3428a0e-d7c1-41a8-a364-bbf39d3b563d)<br>
-- 회원가입 : 회원가입 완료 - 화면구현 상세 코드
+- 회원가입 : 회원가입 완료 - 화면구현 상세 코드<br>
   https://github.com/hsy2493/O1Y3/blob/master/O1Y3/src/main/webapp/MembersShip/member_5.html <br>
 
 ## <기능구현>
