@@ -52,7 +52,8 @@
   https://github.com/hsy2493/O1Y3/blob/master/O1Y3/src/main/webapp/MembersShip/member_5.html <br>
 
 ## <기능구현>
-(1) 로그인<br>
+(1) 로그인<br> 아이디가 "O1Y3"로, 비밀번호가 "20240508"로 등록된 회원정보인 경우,
+          
    
 (2) 회원가입<br>
 
