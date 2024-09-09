@@ -17,6 +17,7 @@
   https://github.com/hsy2493/O1Y3/issues/1#issue-2509827477
 5. 작업 툴 :
   - Front-end : HTML, CSS, Javascript, JSP<br>
+  - Back-end : Java <br>
 6. 작업 인원 : 3명<br>
 
 7. 결과물 : <br>
