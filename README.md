@@ -54,7 +54,7 @@
 ![image](https://github.com/user-attachments/assets/a848bee7-0f8b-4f09-a818-7ec3884fe062)<br>
 <설명><br>
 -등록할 새로운 회원정보 입력 후 등록완료 버튼을 선택한다.<br>
--단, 아이디 중복 확인과 비밀번호 재확인을 순차적으로 진행해야 한다. <br>
+-단, 아이디 중복확인과 비밀번호 재확인을 진행해야 한다. <br>
 - 회원가입 : 회원정보 등록 - 화면구현 상세 코드<br>
   https://github.com/hsy2493/O1Y3/blob/master/O1Y3/src/main/webapp/MembersShip/member_4.html <br>
 
