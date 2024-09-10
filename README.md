@@ -23,38 +23,44 @@
 7. 결과물 : <br>
 ## <화면구현>
 (1) 로그인<br>![image](https://github.com/user-attachments/assets/c4bd0385-9838-45d9-825b-bb6b922ce844)<br>
+<설명> <br>
+-아이디와 비밀번호를 입력 후 로그인을 시도한다. <br>
 - 로그인 - 화면구현 상세 코드<br>
-<설명>-아이디와 비밀번호를 입력 후 로그인을 시도한다. <br>
   https://github.com/hsy2493/O1Y3/blob/master/O1Y3/src/main/webapp/Login/login.html<br>
 
 (2) 회원가입<br>
 2-1). 회원선택<br>
 ![image](https://github.com/user-attachments/assets/cb60f585-3c3f-4dbe-a49b-c69d64703066)<br>
-<설명>-회원의 연령(14세 이상/미만)을 선택한다. <br>
+<설명><br>
+-회원의 연령(14세 이상/미만)을 선택한다. <br>
 - 회원가입 : 회원선택 - 화면구현 상세 코드<br>
   https://github.com/hsy2493/O1Y3/blob/master/O1Y3/src/main/webapp/MembersShip/member_1.html <br>
 
 2-2). 약관동의<br>
 ![image](https://github.com/user-attachments/assets/ea0c18a3-ddad-453d-9d85-661c5ed6155b)<br>
-<설명>-약관내용 확인 후 이에 동의한다. (필수/선택) <br>
+<설명><br>
+-약관내용 확인 후 이에 동의한다. (필수/선택) <br>
 - 회원가입 : 약관동의 - 화면구현 상세 코드<br>
   https://github.com/hsy2493/O1Y3/blob/master/O1Y3/src/main/webapp/MembersShip/member_2.html <br>
 
 2-3). 본인인증<br>
 ![image](https://github.com/user-attachments/assets/b8c6a87b-ce2e-418e-8ae0-4bcda42f7b82)<br>
-<설명>-휴대폰 인증을 선택한다.<br>
+<설명><br>
+-휴대폰 인증을 선택한다.<br>
 - 회원가입 : 본인인증 - 화면구현 상세 코드<br>
   https://github.com/hsy2493/O1Y3/blob/master/O1Y3/src/main/webapp/MembersShip/member_3.html <br>
 
 2-4). 회원정보 등록<br>
-<설명>-회원정보 입력 후 회원 등록을 선택한다.<br>
+<설명><br>
+-회원정보 입력 후 회원 등록을 선택한다.<br>
 -단, 아이디 중복 확인과 비밀번호 재확인을 순차적으로 진행해야 한다. <br>
 ![image](https://github.com/user-attachments/assets/a848bee7-0f8b-4f09-a818-7ec3884fe062)<br>
 - 회원가입 : 회원정보 등록 - 화면구현 상세 코드<br>
   https://github.com/hsy2493/O1Y3/blob/master/O1Y3/src/main/webapp/MembersShip/member_4.html <br>
 
 2-5). 회원가입 완료<br>
-<설명>-회원가입 완료 후, 로그인창 또는 메인홈으로 이동이 가능하다. <br>
+<설명><br>
+-회원가입 완료 후, 로그인창 또는 메인홈으로 이동이 가능하다. <br>
 ![image](https://github.com/user-attachments/assets/a3428a0e-d7c1-41a8-a364-bbf39d3b563d)<br>
 - 회원가입 : 회원가입 완료 - 화면구현 상세 코드<br>
   https://github.com/hsy2493/O1Y3/blob/master/O1Y3/src/main/webapp/MembersShip/member_5.html <br>
