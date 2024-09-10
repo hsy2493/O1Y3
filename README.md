@@ -59,9 +59,9 @@
   https://github.com/hsy2493/O1Y3/blob/master/O1Y3/src/main/webapp/MembersShip/member_4.html <br>
 
 2-5). 회원가입 완료<br>
+![image](https://github.com/user-attachments/assets/a3428a0e-d7c1-41a8-a364-bbf39d3b563d)<br>
 <설명><br>
 -회원가입 완료 후, 로그인창 또는 메인홈으로 이동이 가능하다. <br>
-![image](https://github.com/user-attachments/assets/a3428a0e-d7c1-41a8-a364-bbf39d3b563d)<br>
 - 회원가입 : 회원가입 완료 - 화면구현 상세 코드<br>
   https://github.com/hsy2493/O1Y3/blob/master/O1Y3/src/main/webapp/MembersShip/member_5.html <br>
 
