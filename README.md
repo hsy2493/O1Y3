@@ -24,7 +24,7 @@
 ## <화면구현>
 (1) 로그인<br>![image](https://github.com/user-attachments/assets/c4bd0385-9838-45d9-825b-bb6b922ce844)<br>
 <설명> <br>
--아이디와 비밀번호를 입력 후 로그인을 시도한다. <br>
+-아이디와 비밀번호를 입력한 후 로그인을 시도한다. <br>
 - 로그인 - 화면구현 상세 코드<br>
   https://github.com/hsy2493/O1Y3/blob/master/O1Y3/src/main/webapp/Login/login.html<br>
 
