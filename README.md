@@ -79,7 +79,7 @@ https://github.com/hsy2493/O1Y3/blob/master/O1Y3/src/main/webapp/Login/result.js
 - 로그인 성공 <br>
 ![image](https://github.com/user-attachments/assets/41e6abfd-2723-44c4-a097-995d2517a149) <br>
 <설명> <br>
--로그인 성공 시, response.sendRedirect를 활용하여, 임시 메인 페이지로 리다이렉션 한다. <br>
+-로그인 성공 시, response.sendRedirect를 활용하여, 메인 페이지로 리다이렉션 한다. <br>
 - 로그인 성공 - 기능구현 상세 코드 <br> 
 https://github.com/hsy2493/O1Y3/blob/master/O1Y3/src/main/webapp/Login/success.jsp <br>
 https://github.com/hsy2493/O1Y3/blob/master/O1Y3/src/main/webapp/Login/login.html <br>
