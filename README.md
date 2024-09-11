@@ -40,6 +40,7 @@
 ![image](https://github.com/user-attachments/assets/ea0c18a3-ddad-453d-9d85-661c5ed6155b)<br>
 <설명><br>
 -약관 내용 확인 후 약관 내용에 동의(필수/선택)한다. <br>
+-단, 필수 약관내용에 동의해야지만, 본인인증 페이지로 이동한다.
 - 회원가입 : 약관동의 - 화면구현 상세 코드<br>
   https://github.com/hsy2493/O1Y3/blob/master/O1Y3/src/main/webapp/MembersShip/member_2.html <br>
 
