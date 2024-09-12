@@ -70,7 +70,7 @@
 (1) 로그인<br> 
 <설명> <br> 
 - 아이디 : O1Y3, 비밀번호 : 20240508 로 등록된 회원정보인 경우 <br>
-- equals를 활용하여, 로그인 유효성 검토를 시도한다. <br>
+- equals를 활용하여, 로그인 유효성 검사를 시도한다. <br>
 
 ![image](https://github.com/user-attachments/assets/2cc00740-36b8-442c-8ede-8dd37a0b60ab) <br>
 - 로그인 - 기능구현 상세 코드 <br>
